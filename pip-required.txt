@@ -5,4 +5,5 @@ wgetter
 geojson
 shapely
 rtree
-#pygdal==1.11.2.3
+pygdal==1.11.2.3
+python-coveralls
