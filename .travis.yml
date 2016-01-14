@@ -4,7 +4,8 @@ python:
 
 before_install:
 - sudo apt-get -qq update
-- sudo apt-get install libgdal-dev libevent-dev python-dev build-essential gdal-bin libyaml-dev libspatialindex-dev
+- sudo apt-get install -y libgdal-dev libevent-dev python-dev build-essential gdal-bin libyaml-dev libspatialindex-dev
+- sudo apt-get install -y libgdal1h libgdal1-dev python-gdal
 - gdal-config --version
 
 install:
