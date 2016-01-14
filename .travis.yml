@@ -9,6 +9,7 @@ before_install:
 - gdal-config --version
 
 install:
+  - pip install pygdal==$( gdal-config --version )
   - pip install -r pip-required.txt
   - pip install -r pip-dev.txt
 
